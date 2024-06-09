@@ -15,7 +15,8 @@ public class LoanDto {
     private String idNumber;
     private Double loanAmount;
     private String loanCategory;
-    private String timeDuration;
+    private String loanDuration;
+    private String loanDurationUnit;
     private String loanDescription;
     private String repaymentStartDate;
     private String emiRepetition;

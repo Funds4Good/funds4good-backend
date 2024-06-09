@@ -13,7 +13,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
                 description = "Complete API documentation for spring application."),
         servers = {
                 @Server(
-                        url = "https://fund4good.pranavbisaria.live",
+                        url = "https://funds4good.pranavbisaria.live",
                         description = "Production server"
                 ),
                 @Server(

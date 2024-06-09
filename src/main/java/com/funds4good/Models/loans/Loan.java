@@ -36,7 +36,8 @@ public class Loan {
     private String imageUploaded;
     private Double loanAmount;
     private String loanCategory;
-    private String timeDuration;
+    private String loanDuration;
+    private String loanDurationUnit;
     private String loanDescription;
     private String repaymentStartDate;
     private String emiRepetition;
@@ -54,7 +55,8 @@ public class Loan {
         this.imageUploaded = imagePath;
         this.loanAmount = loanDto.getLoanAmount();
         this.loanCategory = loanDto.getLoanCategory();
-        this.timeDuration = loanDto.getTimeDuration();
+        this.loanDuration = loanDto.getLoanDuration();
+        this.loanDurationUnit = loanDto.getLoanDurationUnit();
         this.loanDescription = loanDto.getLoanDescription();
         this.repaymentStartDate = loanDto.getRepaymentStartDate();
         this.emiRepetition = loanDto.getEmiRepetition();

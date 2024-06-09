@@ -17,8 +17,8 @@ public class MvcConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("https://funds4good.pranavbisaria.tech", "https://funds4-good-web-app-code-x24.vercel.app", "http://localhost:3000")
-//                .allowedOriginPatterns("*")
+                .allowedOrigins("https://funds4good.pranavbisaria.tech", "https://funds4-good-web-app-code-x24.vercel.app", "http://localhost:3000", "http://localhost:3000/*", "https://localhost:3000/")
+                .allowedOriginPatterns("*/localhost:3000/*")
                 .allowedMethods("GET", "POST", "OPTIONS")
                 .allowedHeaders("Origin", "X-Requested-With", "Content-Type", "Accept")
                 .allowCredentials(true)
